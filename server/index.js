@@ -13,7 +13,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    superHeros: [SuperHero]
+    superHeros: [SuperHero!]!
   }
 `;
 
